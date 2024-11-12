@@ -1,3 +1,16 @@
+# Entrega do TP2 de Engenharia de Prompt
+
+### Caio Serra
+
+## Evidências
+
+[Poe PDF](docs/POE.pdf)
+
+[Notebook PDF](docs/notebook.pdf)
+
+
+## Enunciado e Respostas
+
 Olá Caio,
 
 Chegamos em uma das etapas de preparação! A cada Teste de Performance (TP) você terá a oportunidade de praticar os conhecimentos adquiridos e receber feedbacks relevantes para o seu aprendizado.
@@ -92,15 +105,12 @@ Descreva o comportamento do cliente nas duas situações? As respostas saíram c
 >
 > Obs.: Cortei o primeiro prompt que estava incompleto e mantive todas as chamadas dentro do mesmo Chat, não sei o quanto isso influenciou nas respostas.
 
-![Poe prompt](docs/tp2-exercicio2.jpg)
 
 ### Exercício 3 - Automação de Mensagens Promocionais com Princípios de Prompting
 
 A empresa de turismo viagens.com deseja automatizar o processo de criação de envio de mensagens para clientes, informando-lhes sobre promoções recentes. Escreva um prompt que contenha os três princípios de 1) persona, 2) dados e 3) tom para gerar a mensagem automática. Execute o prompt usando a sua conta Poe.com e justifique se o LLM respondeu como esperado.
 
 > **R:** Realizei o prompt com o modelo GPT-4o a partir do Poe.com, e obtive uma resposta dentro do esperado, fazendo uso dos dados disponibilizados, dentro da persona e no tom especificados.
-
- ![Poe prompt](docs/tp2-exercicio3.jpg)
 
 ### Exercício 4 - Desenvolvimento de Prompts para Recomendação de Produtos
 
@@ -116,8 +126,6 @@ Você está desenvolvendo um sistema de recomendações de produtos para um e-co
 >
 > Por fim, realizei um prompt quase identico ao anterior, mas informando a categoria de interesse do cliente, e assim a resposta foi dentro do esperado, atendendo ao que foi pedido. 
 
-![Poe prompt](docs/tp2-exercicio4.jpg)
-
 
 ### Exercício 5 - Listagem de Componentes de Computadores de Alto Desempenho
 
@@ -129,8 +137,6 @@ Utilize o Poe.com para criar um prompt simples que faça o LLM listar os princip
 >
 > Todos os modelos apresentados existem de fato e suas especificações parecem dentro do que se encontra na internet, se tratando de computadores (notebooks) de alto desempenho.
 
-![Poe prompt](docs/tp2-exercicio5.jpg)
-
 ### Exercício 6 - Análise dos Benefícios da Inteligência Artificial para Pequenas Empresas
 
 Desenvolva um prompt simples para que o LLM forneça uma análise rápida sobre os benefícios de usar inteligência artificial em pequenas empresas. Qual foi o resultado gerado pelo LLM? Aplique os princípios de prompt para obter resultados mais precisos. Teste os prompts na sua conta do Poe.com e copie os prompts e respectivas saídas, junto com a explicação do que foi feito entre um prompt e outro.
@@ -139,7 +145,6 @@ Desenvolva um prompt simples para que o LLM forneça uma análise rápida sobre 
 >
 > Para o segundo prompt eu modifiquei o pedido e fizemos uso de uma persona, alem de direções mais diretas dando foco a restrição de custo de uma pequena empresa, e a resposta melhorou, com a persona sugerindo focar em ROI e dando exemplos condizentes, tanto dos usos, benefícios e seus pontos de atenção.
 
-![Poe prompt](docs/tp2-exercicio6.jpg)
 
 ### Exercício 7 - Resumo de Notícia Utilizando Exemplos em Prompts
 
@@ -191,8 +196,6 @@ No Poe.com, aplique a técnica de Role Prompting para otimizar as respostas do L
 > 
 > Com o Role playing a resposta se tornou muito mais técnica, fazendo referencias a artigos, leis e regulamentos de forma correta, e respondendo as questões com maior riqueza de detalhes.
 
-![Poe prompt](docs/tp2-exercicio10.jpg)
-
 ### Exercício 11 - Estruturação de Prompts com Arquivo YAML
 
 Crie um arquivo YAML que represente a estrutura:
@@ -211,14 +214,6 @@ onde você deve definir dois prompts: um para listar 3 pontos turísticos de Rom
 
 Queremos montar um sistema que envie emails com os pontos turísticos de cidades num roteiro de viagem. Com base no Exercício 11, altere o prompt para estruturar a saída em formato JSON, com descrições e número de visitantes. Crie um notebook que use a biblioteca pandas para converter esse JSON para dataframe e plot um único gráfico de barras horizontais com todos os pontos turísticos, destacando as cores das barras de acordo com a cidade do ponto turístico (Coliseu, em Roma deve ter uma cor diferente que Parthenon, em Atenas). Coloque as legendas no gráfico.
 
-
-![Notebook](docs/notebook/page-0001.jpg)
-![Notebook](docs/notebook/page-0002.jpg)
-![Notebook](docs/notebook/page-0003.jpg)
-![Notebook](docs/notebook/page-0004.jpg)
-![Notebook](docs/notebook/page-0005.jpg)
-![Notebook](docs/notebook/page-0006.jpg)
-![Notebook](docs/notebook/page-0007.jpg)
-![Notebook](docs/notebook/page-0008.jpg)
+> **R:** Evidências no [Notebook PDF](docs/notebook.pdf)
 
 Assim que terminar, salve seu trabalho em PDF nomeando o arquivo conforme a regra “nome_sobrenome_DR4_TP2.PDF” e poste como resposta a este TP.
